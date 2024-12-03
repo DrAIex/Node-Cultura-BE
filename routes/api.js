@@ -92,8 +92,8 @@ router.post('/getPreference', async (req, res) => {
 
     // Agrega credenciales
     const client = new MercadoPagoConfig({
-      // accessToken: 'TEST-1917843971819159-030417-ac850a118c56090b434c4b3bedd09d34-1700322474',
-      accessToken: 'APP_USR-7301514635207653-030814-b94a5f40a7ad993f2a5b46dd44ce6890-1716962427',
+      // accessToken: 'key',
+      accessToken: 'key',
       options: { timeout: 5000, idempotencyKey: 'abc' }
     })
 
